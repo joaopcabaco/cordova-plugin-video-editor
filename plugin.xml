@@ -8,11 +8,11 @@
 
 
     <js-module name="VideoEditor" src="www/VideoEditor.js">
-        <clobbers target="VideoEditor" />
+        <clobbers target="window.VideoEditor" />
     </js-module>
 
     <js-module name="VideoEditorOptions" src="www/VideoEditorOptions.js">
-        <clobbers target="VideoEditorOptions" />
+        <clobbers target="window.VideoEditorOptions" />
     </js-module>
 
     <engines>
